@@ -305,7 +305,9 @@ ul {
     width: 28px;
     margin-left: 20px;
     display: none;
+    
 }
+
 
 /* --------Media Query for menu-------- */
 
@@ -332,6 +334,7 @@ ul {
         display: block;
         cursor: pointer;
     }
+
 }
 
 /* --------Media Query for less than 600 screen size-------- */
@@ -343,5 +346,19 @@ ul {
     .col-2, .col-3, .col-4 {
         flex-basis: 100%;
     }
+    .single-product .row {
+        text-align: left;
+    }
+    .single-product .col-2 {
+        padding: 20px 0;
+    }
+    .single-product h1 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .cart-info p {
+        display: none;
+    }
+
 }
 
